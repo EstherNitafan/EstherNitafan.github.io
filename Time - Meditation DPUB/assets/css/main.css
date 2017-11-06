@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+    text-align: center;
+    background-color: #E3B0ED;
+}
+
+.sky{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.time{
+  font-family: OpenSans;
+  color:white;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 50px
+  width: 60vw;
+  height: 40vw;
+  z-index: 1
+}
+
+.man{
+  position: absolute;
+  top:12%;
+  left: 30%;
+  z-index: 1
+}
+.breathe {
+  position: fixed;
+  margin: 0 auto;
+  top:5%;
+  left:30%;
+  z-index: -1
+}
+
+.breathecircle{
+  width: 40vw;
+  height: 40vw;
+  animation: pulse 9s infinite;
+  border-radius: 50%;
+
+}
+
+.spot1{
+  position:absolute;
+  top:10%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot2{
+  position:absolute;
+  top:17%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot3{
+  position:absolute;
+  top:31%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot4{
+  position:absolute;
+  top:46%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot5{
+  position:absolute;
+  top:65%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot6{
+  position:absolute;
+  top:75%;
+  left: 48%;
+  z-index: 2
+}
+
+.spot7{
+  position:absolute;
+  top:82%;
+  left: 48%;
+  z-index: 2
+}
+
+
+
+.circles{
+
+}
+
+.circle1{
+  	border-radius: 50%;
+  	width: 4vw;
+  	height: 4vw;
+    animation: opacity 2s infinite;
+    background-color: purple;
+  }
+  .circle2{
+    	border-radius: 50%;
+      width: 4vw;
+    	height: 4vw;
+      animation: opacity 2s infinite;
+      background-color: blue;
+    }
+    .circle3{
+      	border-radius: 50%;
+        width: 4vw;
+      	height: 4vw;
+        animation: opacity 2s infinite;
+        background-color: lightblue;
+      }.circle4{
+        	border-radius: 50%;
+          width: 4vw;
+        	height: 4vw;
+          animation: opacity 2s infinite;
+          background-color: lightgreen;
+        }.circle5{
+          	border-radius: 50%;
+            width: 4vw;
+          	height: 4vw;
+            animation: opacity 2s infinite;
+            background-color: yellow;
+          }.circle6{
+            	border-radius: 50%;
+              width: 4vw;
+            	height: 4vw;
+              animation: opacity 2s infinite;
+              background-color: orange;
+            }.circle7{
+              	border-radius: 50%;
+                width: 4vw;
+              	height: 4vw;
+                animation: opacity 2s infinite;
+                background-color: crimson;
+              }
+
+
+.button {
+  display:none;
+}
+
+
+@keyframes pulse {
+    0% { background-color: #27AAE1; opacity: 0; transform:scale(.5); }
+    50% { background-color: #27AAE1; opacity: 1; transform:scale(1);}
+    50.5% { background-color: purple; opacity: 1; transform:scale(1);}
+    51% { background-color: #F74646; opacity: 1; transform:scale(1);}
+    100% { background-color: #F74646; opacity: 0;  transform:scale(.5);}
+
+}
+
+@keyframes opacity{
+    0% {opacity: .5;}
+    50% {opacity: 1;}
+    100% {opacity: .5;}
+
+}

@@ -4,13 +4,35 @@
     <meta charset="utf-8">
     <title>LVL3b</title>
     <style media="screen">
+
+    a{
+      background-color: black;
+      color: white;
+      margin:10px;
+      padding-left:20px;
+      padding-right:20px;
+      display: inline-block;
+      font-family: monospace;
+    }
+
+    body{
+      font-family: monospace;
+    }
+
+    .menu{
+      display: flex;
+      justify-content: space-around;
+      background-color: black;
+      margin-left: 0px;
+      padding: 50px;
+    }
+
 .title{
   position: fixed;
-  left: 30%;
-margin-left: 600px;
-margin-right: 400px;
-margin-top: 70px;
-padding: 20px;
+  margin-left: 600px;
+  margin-right: 0px;
+  margin-top: 70px;
+  padding: 20px;
   border: 20px solid black
 }
       .list{
@@ -18,9 +40,7 @@ padding: 20px;
         width: 500px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top:100px;
         position: absolute;
-        left: 30%;
       }
 
       p{
@@ -28,11 +48,23 @@ padding: 20px;
         padding: 10px;
       }
     </style>
+
+
   </head>
-  <body>
+    <body>
+
+      <div class="menu">
+        <a href="index.html">15 Variations</a> <br>
+        <a href="lvl3a.html">Previous Level</a> <br>
+        <a href="lvl3c.html">Next Level</a>
+      </div>
+
+  <div class="manifesto">
+
     <div class="title">
       <h1><strong>THE CULT OF DONE MANIFESTO</strong></h1>
     </div>
+
 <div class="list">
   <p>There are three states of being.  Not knowing, action and completion.</p>
   <p>Accept that everything is a draft.  It helps to get done.</p>
@@ -49,5 +81,9 @@ padding: 20px;
   <p>Done is the engine of more.</p>
 
 </div>
+
+  </div>
+
+
   </body>
 </html>
